@@ -1,0 +1,30 @@
+
+
+    @font-face {
+        src: url('../fonts/Vazir-Medium.eot') format("eot"),
+        url('../fonts/Vazir-Medium.ttf') format("ttf"),
+        url('../fonts/Vazir-Medium.woff') format("woff"),
+        url("../fonts/Vazir-Medium.woff2") format("woff2");
+        font-family: 'Vazir';
+    }
+
+a,
+p, 
+div, 
+span,
+input[type='text'],
+td,
+th,
+label {
+    font-family: "Vazir";
+}
+td {
+    font-size: 14px;
+}
+.todo-tag {
+    width:30px; 
+    height:30px;
+    display:block; 
+    border-radius:5px;
+}
+
