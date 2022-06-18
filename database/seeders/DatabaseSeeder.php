@@ -19,5 +19,18 @@ class DatabaseSeeder extends Seeder
         User::factory(10)->create();
 
         Todo::factory(10)->create();
+
+        User::create([
+            'name' => 'admin',
+            'email' => 'admin@gmail.com',
+            'is_admin' => true,
+            'password' => 123456,
+        ]);
+
+        User::create([
+            'name' => 'user',
+            'email' => 'user@gmail.com',
+            'password' => 123456,
+        ]);
     }
 }
